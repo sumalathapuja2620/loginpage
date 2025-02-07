@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 2px solid black;
+            margin-left: 500px;
+            margin-top: 160px;
+            margin-right: 500px;
+            border-radius: 20px;
+            background-color: rgba(255, 8, 0, 0.342);
+            background-image: url(images/images.jpg);
+        }
+    </style>
+</head>
+<body background="images/pink img.avif">
+<div>
+    <h1 style="text-align: center;">Reset Password</h1>
+    <center>
+        <form method="post" action="login.html">
+            <input type="text" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*()])[a-zA-Z0-9!@#$%^&*()]{8}" name="pswd" placeholder="Old password" required autofocus><br><br>
+            <input type="text" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*()])[a-zA-Z0-9!@#$%^&*()]{8}" name="new pswd" placeholder="New password" required><br><br>
+            <input type="text" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*()])[a-zA-Z0-9!@#$%^&*()]{8}" name="re pswd" placeholder="Re-enter password"><br><br>
+            <input type="submit" value="Reset Password" style="background-color: rgb(62, 62, 241)">
+            <input type="submit" value="Login" style="background-color: rgb(62, 62, 241)"><br><br>
+        </form>
+    </center>
+</div>
+</body>
+</html>
